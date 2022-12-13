@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical" android:background="#FBFAFA"
+              android:layout_margin="3dp">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="end" android:layout_margin="3dp">
+        <Button
+                android:text="close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/buttonCloseFragmentIOE"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center">
+        <TextView
+                android:text="Name equipment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelNameEquipment" android:layout_weight="1"
+                android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewNameEquipment" android:layout_weight="1"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelModel" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewModelEquipment"
+                android:layout_weight="1" android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Manufacturer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelManufacturer" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewManufacturer" android:layout_weight="1"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Serial Number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelSerialNumber" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewSerialNumber" android:layout_weight="1"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="MAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelMacAddress" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewMacAddress" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="MAC 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelMac1" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewMac1" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="MAC 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelMac2" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewMac2" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="MAC 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelMac3" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewMac3" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="IP address(TCP/IPv4)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelIpAddress" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewIpAddress" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Subnet masc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelSubnetMasc" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewSubnetMasc" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Gateway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelGateway" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewGateway" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="IP address Dante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelIPDante" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewIpAdressDante" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Subnet masc Dante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelMascDante" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewMascDante" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Gateway Dante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelGatewayDante" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewGatewayDante" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelRoom" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewRoom" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Location in the room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelLocationInTheRoom"
+                android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewRoomLocation" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/labelCondition" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewCondition" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Technical-Assistant-Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_documentation">Documentation</string>
+    <string name="menu_settings">Settings</string>
+    <string name="add_watch_WorkProjectors">Watch Work Projectors</string>
+    <string name="communicate">Communicate</string>
+    <string name="profile_settings">Profile settings</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="mail">Mail</string>
+    <string name="mailSettingsExternalDB">Mail</string>
+    <string name="phone">Phone</string>
+    <string name="phoneEditText">Phone</string>
+    <string name="settings_external_database">Settings External Database</string>
+    <string name="server">Server</string>
+    <string name="serverEditText">Server</string>
+    <string name="port">Port</string>
+    <string name="portEditText">Port</string>
+    <string name="name_database">Name database</string>
+    <string name="name_databaseEditText">Name database</string>
+    <string name="user_database">User database</string>
+    <string name="user_databaseEditText">User database</string>
+    <string name="password_database">Password database</string>
+    <string name="password_databaseEditText">Password database</string>
+    <string name="save">save</string>
+    <string name="registration">Registration</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="company_name">Company name</string>
+    <string name="load">Load</string>
+    <string name="imgCompanyLogo">TODO</string>
+</resources>

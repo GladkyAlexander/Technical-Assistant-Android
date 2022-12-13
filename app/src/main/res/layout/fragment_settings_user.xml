@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".ui.fragment_settings_user.FragmentSettingsUser" android:orientation="vertical"
+              android:gravity="center_horizontal" android:layout_margin="10dp">
+    <TextView
+            android:text="@string/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textViewSettings" android:textSize="16sp"
+            android:textStyle="bold" android:layout_margin="5dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewLastName" android:layout_weight="1"
+                android:gravity="center"/>
+        <TextView
+                android:text="@string/first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewFirstName" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewMail" android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/textInputMail" android:layout_weight="1" android:inputType="textPersonName"
+                android:autofillHints="hint"
+                tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewPhone" android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/textInputPhone" android:layout_weight="1"
+                android:autofillHints="hint"
+                tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+                android:inputType="text"/>
+    </LinearLayout>
+    <TextView
+            android:text="@string/settings_external_database"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textViewSettingsExternalDatabase"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewServer" android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/textInputServer" android:layout_weight="1" android:autofillHints="hint"
+                tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewPort" android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/textInputPort" android:layout_weight="1" android:autofillHints="hint"
+                tools:ignore="LabelFor,TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/name_database"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewNameDatabase" android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/textInputNameDatabase" android:layout_weight="1" android:autofillHints="hint"
+                tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/user_database"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewUserDatabase" android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/textInputUserDatabase" android:layout_weight="1" android:autofillHints="hint"
+                tools:ignore="LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="3dp">
+        <TextView
+                android:text="@string/password_database"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textViewPasswordDatabase"
+                android:layout_weight="1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/textInputPasswordDatabase" android:layout_weight="1"
+                tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck"
+                android:autofillHints=""/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="end">
+        <Button
+                android:text="@string/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/buttonSaveSettingsUserData"/>
+    </LinearLayout>
+</LinearLayout>

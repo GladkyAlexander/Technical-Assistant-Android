@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="com.example.technical_assistant.ui.home.HomeFragment"
+            android:label="@string/menu_home"
+            tools:layout="@layout/fragment_home">
+        <action android:id="@+id/action_nav_home_to_nav_documentation" app:destination="@id/nav_documentation"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/nav_documentation"
+            android:name="com.example.technical_assistant.ui.documentation.DocumentationFragment"
+            android:label="@string/menu_documentation"
+            tools:layout="@layout/fragment_documentation">
+        <action android:id="@+id/action_nav_documentation_to_nav_settings" app:destination="@id/nav_settings"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/nav_settings"
+            android:name="com.example.technical_assistant.ui.settings.SettingsFragment"
+            android:label="@string/menu_settings"
+            tools:layout="@layout/fragment_settings">
+        <action android:id="@+id/action_nav_settings_to_add_watch_WorkProjectors"
+                app:destination="@id/add_watch_WorkProjectors"/>
+    </fragment>
+    <fragment
+        android:id="@+id/add_watch_WorkProjectors"
+        android:name="com.example.technical_assistant.ui.add_wath_work_projectors.AddWathWorkProgectorsFragment"
+        tools:layout="@layout/fragment_add_watch_work_projectors"/>
+</navigation>
